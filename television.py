@@ -12,6 +12,9 @@ class Television:
 
 
     def power(self):
+        """
+        this function turns the power on or off
+        """
         if self.__status:
             self.__status = False
         else:
